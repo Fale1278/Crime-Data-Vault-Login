@@ -9,11 +9,15 @@
 }
 body{
   background-color: #27262c;
+  color: #FFF;
   background-image: url(images/Backimg.png);
-  background-size: 890px;
-  background-position: 30%;
   background-repeat: no-repeat;
-  display: flex;
+  background-size: 100%;
+  background-position: top;
+}
+div{
+  text-align: center;
+  display: grid;
   align-items: center;
   justify-content: center;
 }
@@ -22,7 +26,7 @@ h2{
   font-size: 30px;
   font-weight: 400;
   line-height: normal;
-  margin-top: 6rem;
+  margin-top: 12rem;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -35,8 +39,8 @@ a{
   font-size: 16px;
   font-weight: 400;
   background:  #4044ED;
-  padding: .5rem;
-  margin: 3rem;
+  padding: .7rem;
+  margin: 1.5rem;
   width: 20rem;
 }
 

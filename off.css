@@ -9,20 +9,29 @@
 }
 body{
   background-color: #27262c;
+  color: #FFF;
   background-image: url(images/Backimg.png);
-  background-size: 890px;
-  background-position: 30%;
   background-repeat: no-repeat;
-  display: flex;
+  background-size: 100%;
+}
+div{
+  text-align: center;
+  display: grid;
   align-items: center;
   justify-content: center;
+}
+div i{
+  color: #FFF;
+  position: absolute;
+
 }
 h2{
   color: #fff;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
+  letter-spacing: .1rem;
   line-height: normal;
-  margin-top: 6rem;
+  margin-top: 10rem;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -37,8 +46,9 @@ input{
   font-size: 16px;
   font-weight: 400;
   padding: .5rem;
-  margin: 1rem;
-  width: 20rem;
+  margin: 2rem;
+  width: 25rem;
+  z-index: 1;
 }
 
 button{
@@ -48,9 +58,14 @@ button{
   font-size: 16px;
   font-weight: 400;
   background:  #4044ED;
-  padding: .5rem;
-  margin: 2rem 0 0 1rem;
-  width: 20rem;
+  padding: .7rem;
+  margin: 2rem 0 0 2rem;
+  width: 25rem;
   border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+button:hover{
+  background: #292bc1;
 }
 
